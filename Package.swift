@@ -8,7 +8,7 @@ let package = Package(
         .iOS(.v11)
     ],
     products: [
-        .library(name: "RateLimit-iOS", targets: ["RateLimit-iOS"])
+        .library(name: "RateLimit", targets: ["RateLimit-iOS"])
     ],
     dependencies: [
     ],
